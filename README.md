@@ -2,6 +2,8 @@
 
 This project provides a simple Java Spring Boot web application that can be deployed on AWS using the free tier. The infrastructure (EC2 Auto Scaling, ALB, RDS, CloudWatch, and CI/CD pipeline) should be created manually in the AWS console. The repository only contains the application code, a Maven build configuration, and notes on using Jenkins with SonarQube and Nexus for the pipeline.
 
+The project packages an embedded Tomcat server, so you can run the generated WAR directly with `java -jar` without installing an external servlet container.
+
 ## Application Overview
 
 - **Language:** Java with Spring Boot
