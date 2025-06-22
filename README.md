@@ -56,7 +56,6 @@ This project provides a simple Java Spring Boot web application that can be depl
 
 ## Additional Notes
 
-- Replace the placeholder image in `src/main/resources/static/index.html` with any royalty-free image from the internet if you wish to personalize the site.
 - Ensure your security groups and IAM roles follow the principle of least privilege.
 - The provided instructions focus on manual steps so you can learn the AWS console and how different services interact.
 
